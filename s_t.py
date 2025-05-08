@@ -37,14 +37,13 @@ st.markdown(
     """
     <div style='text-align: center;'>
         <img src="91302878-a-skeleton-with-glasses-look-smart.jpg" width='300'/>
-         <p style='color: white; font-size: 18px; margin-top: 10px;'>
+        <p style='color: white; font-size: 18px; margin-top: 10px;'>
             Este es el esqueleto profe.
         </p>
     </div>
     """,
     unsafe_allow_html=True
 )
-
 
 with st.sidebar:
    with st.sidebar:
