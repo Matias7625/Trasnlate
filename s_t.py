@@ -14,18 +14,34 @@ import glob
 from gtts import gTTS
 from googletrans import Translator
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: black;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
-st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+st.markdown(
+    """
+    <h1 style='text-align: center; color: white;'>TRADUCTOR.</h1>
+    <h3 style='text-align: center; color: #800080;'>Escucho lo que quieres traducir.</h3>
+    """,
+    unsafe_allow_html=True
+)
 
 
 image = Image.open('OIG7.jpg')
 
 st.image(image,width=300)
 with st.sidebar:
-    st.subheader("Traductor.")
+   with st.sidebar:
     st.markdown(
         """
+        <h3 style='text-align: center; color: white;'>Traductor.</h3>
         <div style='text-align: center; color: #800080;'>
             Presiona el botón, cuando escuches la señal<br>
             habla lo que quieres traducir, luego selecciona<br>
