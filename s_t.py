@@ -34,7 +34,7 @@ st.markdown(
 )
 
 
-image = Image.open('OIG7.jpg')
+image = Image.open('91302878-a-skeleton-with-glasses-look-smart.jpg)
 
 st.image(image,width=300)
 with st.sidebar:
