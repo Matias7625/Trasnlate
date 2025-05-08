@@ -46,7 +46,6 @@ st.markdown(
 )
 
 
-st.image(image,width=300)
 with st.sidebar:
    with st.sidebar:
     st.markdown(
