@@ -17,7 +17,16 @@ from googletrans import Translator
 
 st.title("TRADUCTOR.")
 st.subheader("Escucho lo que quieres traducir.")
-
+ st.markdown(
+        """
+        <div style='text-align: center; color: #800080;'>
+            Presiona el botón, cuando escuches la señal<br>
+            habla lo que quieres traducir, luego selecciona<br>
+            la configuración de lenguaje que necesites.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 image = Image.open('OIG7.jpg')
 
