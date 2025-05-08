@@ -35,10 +35,7 @@ with st.sidebar:
         unsafe_allow_html=True
     )
  
-    st.write("Presiona el botón, cuando escuches la señal "
-                 "habla lo que quieres traducir, luego selecciona"   
-                 " la configuración de lenguaje que necesites.")
-
+    
 
 st.write("Toca el Botón y habla lo que quires traducir")
 
